@@ -1,0 +1,580 @@
+.droplistResult {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    top: 60px;
+    border-radius: 2px;
+}
+
+.droplistResult p {
+    padding: 3px 20px;
+    margin: 3px 0;
+    color: #5AB9E3 !important;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.droplistResult p:hover {
+    color: #fff !important;
+    background-color: #5AB9E3;
+}
+
+.inputPhone {
+    width: 80%;
+    margin: auto;
+}
+
+.inputPhone .btn-effect,
+input#formSharSub {
+    margin-top: 25px;
+    background-color: #5ab9e3;
+    color: #fff;
+}
+
+button#searchBTN .fa {
+    display: none;
+}
+
+.inputEmail {
+    padding: 20px 20px;
+}
+
+a#popupClosee {
+    display: block;
+    font-size: 25px;
+}
+
+span#spanPh {
+    color: red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+}
+
+.signAnch {
+    background: #5AB9E3!important;
+    color: #fff;
+    padding-right: 3%;
+    font-size: 18px !important;
+}
+
+.my-report-search li a {
+    margin-left: 15px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header#header .navbar-nav .dropdown-menu {
+    left: -24px;
+}
+
+.table-responsive>table {
+    /*display: block;*/
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 0;
+}
+
+.table-responsive {
+    width: auto !important;
+    overflow-x: unset;
+}
+
+section#poShFrnPop .popup-table {
+    width: 480px;
+}
+
+.exp-month label {
+    white-space: nowrap;
+}
+
+.exp-month {
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+section.Anderson-Lane .search-share {
+    position: static !important;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    transform: translate(0px, 0px);
+    width: unset;
+}
+
+.search-share ul {
+    display: flex;
+    align-items: center;
+}
+
+.search-share .has-search {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-share .has-search a {
+    color: #5ab9e3;
+}
+
+.account-info-txt a {
+    margin: auto;
+    color: #3b3b3b;
+}
+
+
+/**/
+
+form#setUpAlert .inputPhone {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    align-items: flex-end;
+}
+
+.phn-creAlForSin {
+    margin-right: 20px;
+}
+
+.phn-creAlForSin input.form-control {
+    height: calc(1.5em + .75rem + 5px);
+}
+
+.phn-creAlForSin,
+btn {
+    flex-grow: 1;
+}
+
+
+/*
+form#setUpAlert .popup-permit-txt {
+    width: 480px;
+}
+*/
+
+.coupon-code-question a.coupon-code-link {
+    font-size: 14px !important;
+    text-decoration: none;
+    color: #808080;
+    text-decoration: underline;
+}
+
+section.apply-couponcode-popup:before,
+div.apply-couponcode-popup:before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 11;
+    height: 100vh;
+    width: 100%;
+    bottom: auto;
+}
+
+section.apply-couponcode-popup .popup-table {
+    z-index: 12;
+}
+
+section.top-popup-background:before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 11;
+    height: 100vh;
+    width: 100%;
+    bottom: auto;
+}
+
+section.top-popup-background .popup-table {
+    z-index: 12;
+}
+
+section.popup-already-account .close-popup-coupon-code {
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*table#accordion .table100-nextcols td.cell100 {
+    white-space: initial;
+}*/
+
+.table100-nextcols table#accordion tr.head th.cell100.column13 {
+    text-align: left !important;
+}
+
+.table100-nextcols table#accordion .column12 {
+    width: 130px;
+}
+
+.table100-nextcols table#accordion tr.head th.cell100.column13 label.form-check-label {
+    float: right;
+}
+
+.table100-nextcols table#accordion tr.head th.cell100.column13 label.form-check-label input {
+    margin-right: 0px;
+}
+
+.table100-nextcols table#accordion tbody.selectedReports tr.accordion-toggle td.cell100.column13 input {
+    position: relative;
+    margin-left: 0px;
+}
+
+form .popup-already-account-txt .popup-account-info .account-info-txt button.apply-code-btn {
+    background-color: #5AB9E3;
+    color: #fff;
+    height: 33.5px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+form .popup-already-account-txt .popup-account-info .account-info-txt button.apply-code-btn:before {
+    border: #fff solid 0px;
+}
+
+form .popup-already-account-txt .popup-account-info .account-info-txt button.apply-code-btn:hover {
+    opacity: 0.8;
+}
+
+
+/* checkbox */
+
+.custom-checkbox-new {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.custom-checkbox-new label {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.custom-checkbox-new .label__checkbox {
+    display: none;
+}
+
+.custom-checkbox-new .label__check {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: white;
+    vertical-align: middle;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border 0.3s ease;
+}
+
+.custom-checkbox-new .label__check i.icon {
+    opacity: 0.2;
+    color: #cccccc;
+    transition: opacity 0.3s 0.1s ease;
+}
+
+.custom-checkbox-new .label__check:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.label__checkbox:checked+.label__text .label__check {
+    animation: check 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) forwards;
+}
+
+.label__checkbox:checked+.label__text .label__check .icon {
+    opacity: 1;
+    transform: scale(0);
+    color: white;
+    -webkit-text-stroke: 0;
+    animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1 forwards;
+}
+
+@keyframes icon {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes check {
+    0% {
+        width: 15px;
+        height: 15px;
+        border-width: 5px;
+    }
+    10% {
+        width: 15px;
+        height: 15px;
+        opacity: 0.1;
+        background: rgba(0, 0, 0, 0.2);
+        border-width: 15px;
+    }
+    12% {
+        width: 15px;
+        height: 15px;
+        opacity: 0.4;
+        background: rgba(0, 0, 0, 0.1);
+        border-width: 0;
+    }
+    50% {
+        width: 20px;
+        height: 20px;
+        background: #00d478;
+        border: 0;
+        opacity: 0.6;
+    }
+    100% {
+        width: 20px;
+        height: 20px;
+        background: #00d478;
+        border: 0;
+        opacity: 1;
+    }
+}
+
+
+/* checkbox */
+
+.table100-nextcols table#accordion .column2 {
+    width: 410px;
+}
+
+.table100-nextcols table#accordion tr.head th.cell100.column13,
+.table100-nextcols tbody.selectedReports td.cell100.column13 {
+    width: 50px;
+    padding-left: 15px
+}
+
+.my-report-txt h6 {
+    margin: 0;
+}
+
+.my-report-search ul {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.errorClasss {
+    color: red;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.premits-selected span,
+.premits-selected i {
+    color: lightgray !important;
+    cursor: not-allowed;
+    !important;
+}
+
+.premits-selected:hover span,
+.premits-selected:hover i {
+    color: lightgray !important;
+    cursor: not-allowed !important;
+}
+
+.btn.selected-print[attribute="disabled"] {
+    pointer-events: auto;
+}
+
+.my-report-search ul li .btn-link {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.my-report-search ul li .btn-link.disabled,
+.my-report-search ul li .btn-link:disabled {
+    text-decoration: none;
+    pointer-events: auto !important;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.table100-nextcols.table-responsive.inner-table {
+    padding-left: 60px;
+}
+
+.table100-nextcols.inner-table tr.head th.cell100 {
+    white-space: break-spaces;
+    vertical-align: text-top;
+    width: auto;
+}
+
+.table100-nextcols.table-responsive.inner-table td {
+    white-space: nowrap;
+}
+
+.my-report-search li a i {
+    margin-right: 3px;
+}
+
+.my-report-search ul li .btn-link:hover {
+    text-decoration: none;
+}
+
+.table100-nextcols.inner-table tr.head th.cell100.column6 {
+    /*width: 36.3%;*/
+}
+
+.coupon-code-question a.coupon-code-link {
+    font-size: 13.5px !important;
+    text-decoration: none;
+}
+
+#addressRequestForm small.col-lg-4.form-arrow {
+    position: relative;
+}
+
+#addressRequestForm small.col-lg-4.form-arrow:before {
+    content: "";
+    height: 2px;
+    width: 40px;
+    background: #0b3642;
+    position: absolute;
+    top: 50%;
+    right: -18px;
+}
+
+#addressRequestForm small.col-lg-4.form-arrow:after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    border: solid #0b3642;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg) translateY(-50%);
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    top: 50%;
+}
+
+@media screen and (max-width: 640px) {
+    .droplistResult p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section#poShFrnPop .popup-table {
+        width: 95%
+    }
+}
+
+.errSpanClass {
+    float: left;
+    color: red;
+    font-size: 10px;
+}
+
+input.valid.success-alert {
+    border: 2px solid #4CAF50;
+    color: green;
+}
+
+.new-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.address-req-form {
+    height: 500px !important;
+    overflow-x: scroll;
+}
+
+.permit-text-header {
+    color: #3B3B3B;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 1;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.form-select {
+    appearance: menulist !important;
+    -moz-appearance: menulist !important;
+    -webkit-appearance: menulist !important;
+    -o-appearance: menulist !important;
+}
+
+/*.address-collaps table tbody tr:hover .custom-checkbox-new .label__check i.icon {
+opacity: 1;
+}
+.address-collaps table tbody tr:hover .custom-checkbox-new .label__check {
+border-color: #000000;
+}*/
+
+/*.address-collaps table tbody tr:hover .custom-checkbox-new .label__check {
+border-color: #28a745!important;
+}*/
+.address-collaps table tbody tr:hover .custom-checkbox-new .label__check {
+    border-color: #28a745!important;
+}
+.address-collaps table tbody tr:hover .custom-checkbox-new .label__check i.icon{
+    color: #28a745!important;
+    opacity: 1;
+}
+
+/*.custom-checkbox-new .label__check i.icon {
+color: #28a745!important;
+}*/
+
+.address-collaps table tbody tr.accordion-toggle.accordion.body:hover .custom-checkbox-new .label__check {
+border-color: #28a745!important;
+}
+
+.form-check-input:checked {
+    color: #ffffff !important;
+}
+.address-collaps table tbody tr:hover .custom-checkbox-new .form-check-input:checked i.icon{
+ color: #ffffff !important;   
+}

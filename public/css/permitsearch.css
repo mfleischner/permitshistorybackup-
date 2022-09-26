@@ -1,0 +1,120 @@
+/*For Developer Use*/
+body.popup-open:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    filter: blur(2px);
+    background-color: #757575db;
+}
+body.popup-open {
+    position: relative;
+}
+section.Anderson-Lane .row {
+    position: relative;
+    z-index: 1;
+}
+section.Anderson-Lane .col-lg-5 {
+    position: absolute;
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: fit-content;
+    width: -moz-fit-content;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+section.errorPOP .popup-permit-txt li:before{
+content:"\f111" ;
+position: relative;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    font-size: 7px;
+    top: -2px;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+section.errorPOP .popup-table .blue-bg-btn {
+    text-align: center;
+    width: 100% !important;
+    background-color: transparent;
+}
+
+section.errorPOP .btnn-effect:before {
+    content: "";
+    position: absolute;
+    border: #5AB9E3 solid 6px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation-duration: 1s;
+    border-radius: 4px;
+}
+#contAddressPOP .btn-effect:before {
+    border: #5AB9E3 solid 2px;
+}
+section#contAddressPOP label {
+    display: block;
+    text-align: left;
+}
+
+section.my-report .my-report-search .has-search ul {
+    display: flex;
+    justify-content: flex-end;
+}
+section.my-report .my-report-search .has-search li {
+    margin-left: 10px: 
+}
+section.my-report .my-report-search .has-search li:first-child {
+    margin-left: 0px: 
+}
+
+span#successStatusMsg {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+@media screen and (max-device-width: 991px) and (orientation: landscape){
+        .popup-already-account-package {
+    max-height: 150px;
+    overflow-y: auto;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+    section.my-report .my-report-search .has-search ul {
+    justify-content:flex-start;
+    padding-top: 15px;    
+}
+    .my-report-search li a {
+    margin-left: 0 !important;
+    margin-right: 15px;
+}
+    .popup-already-account-package {
+    max-height: 320px;
+    overflow-y: auto;
+}
+    span.reglogErrClass {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 0 !important;
+}
+}
+
+@media screen and (max-width: 480px) {
+span#successStatusMsg {
+    width: 90%;
+}
+}

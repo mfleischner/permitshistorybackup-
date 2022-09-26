@@ -1,0 +1,708 @@
+/* Pro landing page style */
+
+.landing-page p{
+    font-size: 19px;
+    line-height: 36px;
+    color: #212121;
+}
+
+.dark-text{
+    color: #212121;
+}
+
+.dark-blue-text{
+    color: #135CB2;
+}
+
+.hero h1{
+    font-size: 70px;
+    line-height: 96px;
+    font-weight: 700;
+}
+
+.hero h5{
+    font-size: 37px;
+    line-height: 51px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.main-heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: #212121;
+    margin-bottom: 45px;
+}
+
+.listing-type{
+    margin-bottom: 50px;
+}
+
+.listing-type li{
+    background: url("../pro_page/checkmark.png") no-repeat 0 5px;
+    padding-left: 30px;
+    background-size: 20px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.btn-blue{
+    background-color: #135CB2;
+    border: 1px solid #135CB2;
+    color: #fff;
+}
+
+.btn-blue:hover{
+    background-color: #5ab9e3;
+    border: 1px solid #5ab9e3;
+    color: #fff;
+}
+
+.btn-white{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #135CB2;
+}
+
+.btn-white:hover{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-md{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px 50px;
+    line-height: 40px;
+}
+
+.section-padding{
+    padding: 50px 0;
+}
+
+.bg-grey{
+    background-color: #F5F5F5;
+}
+
+.img-shadow{
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.16);
+}
+
+.why-choose{
+    margin-bottom: 50px;
+}
+
+.rounded-icon{
+    width: 98px;
+    height: 98px;
+    background-color: #5AB9E3;
+    margin-right: 45px;
+}
+
+.why-choose-content h6{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 37px;
+}
+
+.why-choose-content strong{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 37px;
+}
+
+.why-us-section .overlayed-img{
+    right: 0;
+    bottom: -50px;
+}
+
+.bg-blue{
+    background-color: #135CB2;
+}
+
+.benefits-card{
+    padding: 40px 40px;
+    transition: all 0.2s ease-in-out;
+}
+
+.benefits-card:hover{
+    box-shadow: 0 0.375rem 1.5rem 0 rgba(140, 152, 164, 0.125);
+    -webkit-transform: translateY(-0.1875rem) !important;
+    transform: translateY(-0.1875rem) !important;
+}
+
+.benefits-card .card-body{
+    padding-top: 35px !important;
+}
+
+.benefits-card .card-title{
+    font-size: 25px;
+    margin-bottom: 15px;
+    display: block;
+}
+.benefits-card .btn-link{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.benefits-card .btn-link:hover{
+    box-shadow: none;
+}
+.benefits-card .btn-link img{
+    margin-left: 10px;
+}
+.benefits-column{
+    margin-bottom: 40px;
+}
+section.pricing{
+    padding: 50px 0 !important;
+}
+.buy-button{
+    padding: 32px 0;
+    border-top: 1px solid #E8E8E8;
+}
+.outline-btn{
+    border: 1px solid #135CB2;
+    background-color: #fff;
+    color: #135CB2;
+}
+.outline-btn:hover{
+    border: 1px solid #5AB9E3;
+    background-color: #5AB9E3;
+    color: #fff;
+}
+.buy-button a.buy-now{
+    font-size: 22px;
+    line-height: 60px;
+    font-weight: 600;
+    padding: 0 50px;
+}
+.cta-section{
+    background: url(../pro_page/subscription-bg.png) no-repeat;
+    position: relative;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.cta-section::before{
+    background-color: rgba(19, 92, 178, 0.9);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.cta-section .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cta-section .main-heading{
+    margin-bottom: 35px !important;
+}
+section.pricing .pricing-table-inner {
+    margin-bottom: 0px;
+}
+
+/* Responsive styles */
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    main#main {
+        padding-top: 84px !important;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        line-height: 36px !important;
+    }
+    .hero h5 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 9px;
+    }
+    .landing-page p {
+        font-size: 16px;
+        line-height: 31px;
+        margin-bottom: 16px !important;
+    }
+    .section-padding {
+        padding: 30px 0;
+    }
+    .listing-type li {
+        padding-left: 30px;
+        margin-bottom: 13px;
+        font-size: 16px;
+    }
+    .listing-type {
+        margin-bottom: 25px;
+    }
+    .pro-image{
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+    .main-heading {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .btn-md {
+        font-size: 19px;
+        padding: 3px 20px;
+    }
+    .rounded-icon {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    .rounded-icon img{
+        padding: 8px;
+    }
+    .why-choose {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .why-choose-content h6 {
+        font-size: 27px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .why-choose-content strong {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .benefits-card {
+        padding: 25px 18px;
+    }
+    .benefits-card .card-title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .benefits-card .card-body {
+        padding-top: 20px !important;
+    }
+    .buy-button a.buy-now {
+        font-size: 18px;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+    section.pricing{
+        padding: 30px 0 !important;
+    }
+    .cta-section .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .cta-section .main-heading {
+        margin-bottom: 10px !important;
+    }
+    .buy-button {
+        padding: 20px 0;
+    }
+    section.hero {
+        min-height: 19rem;
+    }
+    .why-us-section .main-heading{
+        font-size: 22px;
+    }
+    .why-us-section .row{
+        margin-top: 40px;
+    }
+    section.pricing .pricing-table-inner .inner-txt {
+        padding: 1.5rem 0;
+    }
+    section.pricing .pricing-table-inner .package-price {
+        padding-top: 1.5rem;
+    }
+    .cta-section{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .cta-section .btn{
+        margin-top: 20px;
+    }
+    section.pricing .pricing-table-inner {
+        margin-bottom: 30px;
+    }
+    .benefits-column:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero h1 {
+        font-size: 40px;
+        line-height: 54px !important;
+    }
+    .hero h5 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .landing-page p {
+        font-size: 16px;
+        line-height: 31px;
+        margin-bottom: 16px !important;
+    }
+    .section-padding {
+        padding: 40px 0;
+    }
+    .listing-type li {
+        padding-left: 30px;
+        margin-bottom: 13px;
+        font-size: 16px;
+        /* background: url("./checkmark.png") no-repeat 0 1px; */
+    }
+    .listing-type {
+        margin-bottom: 30px;
+    }
+    .pro-image{
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+    .main-heading {
+        font-size: 33px;
+        margin-bottom: 15px;
+    }
+    .btn-md {
+        font-size: 19px;
+        padding: 5px 30px;
+    }
+    .rounded-icon {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .rounded-icon img{
+        padding: 15px;
+    }
+    .why-choose {
+        margin-bottom: 40px;
+        width: 80%;
+    }
+    .why-choose-content h6 {
+        font-size: 33px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .why-choose-content strong {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .benefits-card {
+        padding: 25px 13px;
+    }
+    .benefits-card .card-title {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .benefits-card .card-body {
+        padding-top: 20px !important;
+    }
+    .buy-button a.buy-now {
+        font-size: 18px;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+    section.pricing{
+        padding: 40px 0 !important;
+    }
+    .cta-section .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .cta-section .main-heading {
+        margin-bottom: 10px !important;
+    }
+    .buy-button {
+        padding: 20px 0;
+    }
+    section.hero {
+        min-height: 23rem;
+    }
+    .why-us-section .main-heading{
+        font-size: 28px;
+    }
+    .why-us-section .row{
+        margin-top: 40px;
+    }
+    .why-us-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section.pricing .pricing-table-inner .inner-txt {
+        padding: 1.5rem 0;
+    }
+    section.pricing .pricing-table-inner .package-price {
+        padding-top: 1.5rem;
+    }
+    .cta-section{
+        text-align: center;
+    }
+    .cta-section .btn{
+        margin-top: 20px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .hero h5 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .landing-page p {
+        font-size: 16px;
+        line-height: 31px;
+        margin-bottom: 16px !important;
+    }
+    .listing-type li {
+        padding-left: 30px;
+        margin-bottom: 13px;
+        font-size: 16px;
+        /* background: url("./checkmark.png") no-repeat 0 1px; */
+    }
+    .listing-type {
+        margin-bottom: 40px;
+    }
+    .pro-image{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+    .main-heading {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .btn-md {
+        font-size: 19px;
+        padding: 5px 30px;
+    }
+    .rounded-icon {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .rounded-icon img{
+        padding: 15px;
+    }
+    .why-choose {
+        margin-bottom: 60px;
+        width: 60%;
+        /* float: left; */
+    }
+    .why-choose-content h6 {
+        font-size: 33px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .why-choose-content strong {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .benefits-card {
+        padding: 30px 18px;
+    }
+    .benefits-card .card-title {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .benefits-card .card-body {
+        padding-top: 20px !important;
+    }
+    .buy-button a.buy-now {
+        font-size: 18px;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+    .cta-section .container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .cta-section .main-heading {
+        margin-bottom: 10px !important;
+    }
+    .buy-button {
+        padding: 20px 0;
+    }
+    section.hero {
+        min-height: 23rem;
+    }
+    .why-us-section .main-heading{
+        font-size: 30px;
+    }
+    .why-us-section .row{
+        margin-top: 40px;
+    }
+    .why-us-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .hero h5 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .landing-page p {
+        font-size: 16px;
+        line-height: 31px;
+        margin-bottom: 16px !important;
+    }
+    .listing-type li {
+        padding-left: 25px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        background-position-y: 3px !important;
+    }
+    .listing-type {
+        margin-bottom: 40px;
+    }
+    .main-heading {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .btn-md {
+        font-size: 20px;
+        padding: 5px 35px;
+    }
+    .rounded-icon {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .rounded-icon img{
+        padding: 15px;
+    }
+    .why-choose {
+        margin-bottom: 40px;
+    }
+    .why-choose-content h6 {
+        font-size: 33px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .why-choose-content strong {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .benefits-card {
+        padding: 30px 18px;
+    }
+    .benefits-card .card-title {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .benefits-card .card-body {
+        padding-top: 20px !important;
+    }
+    .buy-button a.buy-now {
+        font-size: 20px;
+        line-height: 45px;
+        padding: 0 40px;
+    }
+    .cta-section .container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .cta-section .main-heading {
+        margin-bottom: 10px !important;
+    }
+    .buy-button {
+        padding: 22px 0;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400.98px) {
+    .hero h1 {
+        font-size: 60px;
+        line-height: 76px;
+    }
+    .hero h5 {
+        font-size: 30px;
+        line-height: 31px;
+    }
+    .main-heading {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .btn-md {
+        font-size: 25px;
+        padding: 10px 40px;
+    }
+    .rounded-icon {
+        width: 90px;
+        height: 90px;
+        margin-right: 35px;
+    }
+    .why-choose {
+        margin-bottom: 40px;
+    }
+    .why-choose-content h6 {
+        font-size: 35px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+    .why-choose-content strong {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .benefits-card {
+        padding: 40px 25px;
+    }
+    .benefits-card .card-title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .benefits-card .card-body {
+        padding-top: 25px !important;
+    }
+    .buy-button a.buy-now {
+        font-size: 20px;
+        line-height: 50px;
+        padding: 0 40px;
+    }
+    section.pricing{
+        padding: 50px 0 !important;
+    }
+    .cta-section .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .cta-section .main-heading {
+        margin-bottom: 15px !important;
+    }
+}
+
+/* // For 2k Monitors, (more than 1401 px) */
+@media (min-width: 1401px) and (max-width: 1599.98px) {
+
+}
+
+@media (min-width: 1600px) and (max-width: 2559.98px) {
+
+}
+
+@media (min-width: 2560px) {
+
+}
